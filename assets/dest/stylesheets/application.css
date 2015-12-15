@@ -8,7 +8,7 @@ a:hover {
   background-size: cover; }
 
 .main-img {
-  background-image: url("/Users/hyunahkelly/Documents/FrontEnd/bside/assets/images/main-img-sm.png");
+  background-image: url("/BSIdes_webpage/assets/images/main-img-sm.png");
   height: 500px; }
 
 .event-info {
@@ -139,9 +139,9 @@ section {
     #about .team-member {
       padding: 10px 35px; } }
 #about .planner-img-one {
-  background-image: url("/Users/hyunahkelly/Documents/FrontEnd/bside/assets/images/josh.jpg"); }
+  background-image: url("/BSIdes_webpage/assets/images/josh.jpg"); }
 #about .planner-img-two {
-  background-image: url("/Users/hyunahkelly/Documents/FrontEnd/bside/assets/images/magen.jpg"); }
+  background-image: url("/BSIdes_webpage/assets/images/magen.jpg"); }
 
 #location {
   background-color: #EEE;
