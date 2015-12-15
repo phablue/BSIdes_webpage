@@ -1,3 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,900);
+.nav-logo {
+  display: none; }
+.nav-menu-btn {
+  background-color: #FFF;
+  border: 0px;
+  font-size: 2em; }
+  .nav-menu-btn:focus {
+    outline: none; }
+.nav-menu {
+  font-family: "Roboto", sans-serif; }
+
+.main-img {
+  background: url("/BSIdes_webpage/assets/images/logo-sm.png");
+  background-size: cover;
+  height: 382px; }
 
 /*# sourceMappingURL=application.css.map */
