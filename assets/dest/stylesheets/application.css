@@ -8,7 +8,7 @@ a:hover {
   background-size: cover; }
 
 .main-img {
-  background-image: url("/BSIdes_webpage/assets/images/main-img-sm.png");
+  background-image: url("/Users/hyunahkelly/Documents/FrontEnd/bside/assets/images/main-img-sm.png");
   height: 500px; }
 
 .event-info {
@@ -71,13 +71,17 @@ a:hover {
         color: #6195BB; }
 
 section {
-  margin: 40px 0;
+  margin-top: 40px;
   text-align: center; }
   section > div {
     padding: 15px 20px; }
     section > div h2 {
       color: #041A2B;
       font-weight: 700; }
+    section > div h3 {
+      color: #010E17;
+      font-weight: 800;
+      line-height: 1.25; }
     section > div h4 {
       font-weight: 700; }
     section > div .information {
@@ -85,33 +89,77 @@ section {
       section > div .information .fa {
         color: #0A263A; }
 
-.information-btn, #registration .btn, #sponsors .btn {
+.information-btn, #cfp .btn, #registration .btn, #sponsors .btn {
   background-color: #29577A;
   font-size: 1.2em;
   padding: 7px 15px; }
-  .information-btn a, #registration .btn a, #sponsors .btn a {
+  .information-btn a, #cfp .btn a, #registration .btn a, #sponsors .btn a {
     color: #FFF; }
 
-#schedule {
+#cfp .btn {
+  margin-top: 10px; }
+
+#registration {
+  background-color: #EEE; }
+  #registration h4 {
+    line-height: 1.3; }
+  #registration .fa-ticket {
+    text-align: center; }
+  #registration .btn {
+    display: block;
+    margin: 20px auto; }
+
+#sponsors .btn {
+  margin-bottom: 15px; }
+
+#volunteers {
   background-color: #EEE; }
 
-#registration .fa-ticket {
-  text-align: center; }
-#registration .btn {
-  display: block;
-  margin: 20px auto; }
+.planner-img, #about .planner-img-one, #about .planner-img-two {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 180px;
+  padding: 15px;
+  width: 180px; }
 
-#sponsors {
-  background-color: #EEE; }
-  #sponsors h3 {
-    color: #010E17;
-    font-weight: 800;
-    line-height: 1.25;
-    padding-bottom: 10px; }
-  #sponsors .btn {
-    margin-bottom: 15px; }
+#about .team-member {
+  display: inline-block;
+  padding: 5px 20px;
+  margin-bottom: 30px; }
+#about .planner-img-one {
+  background-image: url("/Users/hyunahkelly/Documents/FrontEnd/bside/assets/images/josh.jpg"); }
+#about .planner-img-two {
+  background-image: url("/Users/hyunahkelly/Documents/FrontEnd/bside/assets/images/magen.jpg"); }
 
-#about {
-  background-color: #EEE; }
+#location {
+  background-color: #EEE;
+  padding-bottom: 40px; }
+  #location h4 {
+    line-height: 1.3; }
+  #location .map {
+    border: 0;
+    margin: auto;
+    max-width: 290px;
+    padding: 10px; }
+
+footer {
+  background-color: #041A2B;
+  color: #FFF;
+  padding: 10px 20px; }
+  footer .fa {
+    color: #FFF; }
+
+.contact {
+  display: inline-block; }
+  .contact span {
+    font-size: 15px;
+    padding: 0 10px; }
+
+.follow {
+  display: inline-block; }
+  .follow a {
+    padding: 0 10px; }
 
 /*# sourceMappingURL=application.css.map */
