@@ -3,13 +3,21 @@ a:hover {
   text-decoration: none; }
 
 .background-img, .main-img {
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover; }
 
 .main-img {
   background-image: url("/BSIdes_webpage/assets/images/main-img-sm.png");
   height: 500px; }
+  @media only screen and (min-width: 768px) {
+    .main-img {
+      background-image: url("/BSIdes_webpage/assets/images/main-img.png");
+      height: 650px; } }
+  @media only screen and (min-width: 1024px) {
+    .main-img {
+      background-image: url("/BSIdes_webpage/assets/images/main-img-lg.png");
+      height: 800px; } }
 
 .event-info {
   background-color: rgba(50, 81, 104, 0.5);
@@ -24,6 +32,13 @@ a:hover {
   @media only screen and (min-width: 420px) {
     .event-info {
       max-width: 400px; } }
+  @media only screen and (min-width: 768px) {
+    .event-info {
+      top: 300px; } }
+  @media only screen and (min-width: 1024px) {
+    .event-info {
+      max-width: 450px;
+      top: 400px; } }
 .event-name {
   font-weight: 900; }
 .event-date-place {
@@ -41,10 +56,16 @@ a:hover {
   position: relative;
   left: 15px;
   right: 0;
-  top: 375px; }
+  top: 390px; }
   @media only screen and (min-width: 420px) {
     .register-btn {
       top: 350px; } }
+  @media only screen and (min-width: 768px) {
+    .register-btn {
+      top: 450px; } }
+  @media only screen and (min-width: 1024px) {
+    .register-btn {
+      top: 550px; } }
   .register-btn a {
     color: #FFF; }
 

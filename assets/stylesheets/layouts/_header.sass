@@ -1,5 +1,5 @@
 .background-img
-  background-position: center
+  background-position: top center
   background-repeat: no-repeat
   background-size: cover
 
@@ -7,6 +7,14 @@
   @extend .background-img
   background-image: url("#{$image-path}/assets/images/main-img-sm.png")
   height: 500px
+
+  @media only screen and (min-width: 768px)
+    background-image: url("#{$image-path}/assets/images/main-img.png")
+    height: 650px
+
+  @media only screen and (min-width: 1024px)
+    background-image: url("#{$image-path}/assets/images/main-img-lg.png")
+    height: 800px
 
 .event-
   &info
@@ -22,6 +30,13 @@
 
     @media only screen and (min-width: 420px)
       max-width: 400px
+
+    @media only screen and (min-width: 768px)
+      top: 300px
+
+    @media only screen and (min-width: 1024px)
+      max-width: 450px
+      top: 400px
 
   &name
     font-weight: 900
@@ -42,10 +57,16 @@
   position: relative
   left: 15px
   right: 0
-  top: 375px
+  top: 390px
 
   @media only screen and (min-width: 420px)
     top: 350px
+
+  @media only screen and (min-width: 768px)
+    top: 450px
+
+  @media only screen and (min-width: 1024px)
+    top: 550px
 
   a
     color: $register-btn-font-color
