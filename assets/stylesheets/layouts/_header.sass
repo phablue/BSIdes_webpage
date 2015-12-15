@@ -1,6 +1,45 @@
-@import "nav-menu"
+.background-img
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
 
 .main-img
-  background: url("/BSIdes_webpage/assets/images/logo-sm.png")
-  background-size: cover
-  height: 382px
+  @extend .background-img
+  background-image: url("/Users/hyunahkelly/Documents/FrontEnd/bside/assets/images/main-img-sm.png")
+  height: 500px
+
+.event-
+  &info
+    background-color: $event-info-bg-color
+    color: $event-info-font-color
+    font-family: $event-font
+    max-width: 320px
+    padding: 15px
+    position: absolute
+    left: 0
+    right: 0
+    top: 200px
+
+  &name
+    font-weight: 900
+
+  &date-place
+    line-height: 1.5
+
+    span
+      font-weight: normal
+
+.register-btn
+  background-color: $register-btn-bg-color
+  border: 2px solid $register-btn-border-color
+  border-radius: 5px
+  box-shadow: 2px 2px 4px $register-btn-box-color
+  font-weight: 700
+  padding: 10px 15px
+  position: relative
+  left: 15px
+  right: 0
+  top: 375px
+
+  a
+    color: $register-btn-font-color

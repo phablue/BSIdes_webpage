@@ -1,18 +1,117 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto:900,700,500,400|Quantico:400,700|Electrolize|Aldrich);
+a:hover {
+  text-decoration: none; }
+
+.background-img, .main-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.main-img {
+  background-image: url("/Users/hyunahkelly/Documents/FrontEnd/bside/assets/images/main-img-sm.png");
+  height: 500px; }
+
+.event-info {
+  background-color: rgba(50, 81, 104, 0.5);
+  color: #FFF;
+  font-family: "Quantico", sans-serif;
+  max-width: 320px;
+  padding: 15px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 200px; }
+.event-name {
+  font-weight: 900; }
+.event-date-place {
+  line-height: 1.5; }
+  .event-date-place span {
+    font-weight: normal; }
+
+.register-btn {
+  background-color: rgba(50, 81, 104, 0.2);
+  border: 2px solid #FFF;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px #EEE;
+  font-weight: 700;
+  padding: 10px 15px;
+  position: relative;
+  left: 15px;
+  right: 0;
+  top: 375px; }
+  .register-btn a {
+    color: #FFF; }
+
 .nav-logo {
   display: none; }
 .nav-menu-btn {
-  background-color: #FFF;
+  background-color: transparent;
   border: 0px;
-  font-size: 2em; }
+  color: #FFF;
+  display: inline-block;
+  font-size: 2.3em;
+  padding: 10px 15px;
+  text-align: left;
+  width: 100%; }
   .nav-menu-btn:focus {
     outline: none; }
 .nav-menu {
+  background-color: #EEE;
   font-family: "Roboto", sans-serif; }
+  .nav-menu ul {
+    list-style-type: none;
+    padding: 15px 10px; }
+    .nav-menu ul a {
+      display: block;
+      color: #010E17;
+      font-size: 1.1em;
+      font-weight: 700;
+      padding: 7px 15px; }
+      .nav-menu ul a:hover {
+        color: #6195BB; }
 
-.main-img {
-  background: url("/BSIdes_webpage/assets/images/logo-sm.png");
-  background-size: cover;
-  height: 382px; }
+section {
+  margin: 40px 0;
+  text-align: center; }
+  section > div {
+    padding: 15px 20px; }
+    section > div h2 {
+      color: #041A2B;
+      font-weight: 700; }
+    section > div h4 {
+      font-weight: 700; }
+    section > div .information {
+      margin: 25px auto; }
+      section > div .information .fa {
+        color: #0A263A; }
+
+.information-btn, #registration .btn, #sponsors .btn {
+  background-color: #29577A;
+  font-size: 1.2em;
+  padding: 7px 15px; }
+  .information-btn a, #registration .btn a, #sponsors .btn a {
+    color: #FFF; }
+
+#schedule {
+  background-color: #EEE; }
+
+#registration .fa-ticket {
+  text-align: center; }
+#registration .btn {
+  display: block;
+  margin: 20px auto; }
+
+#sponsors {
+  background-color: #EEE; }
+  #sponsors h3 {
+    color: #010E17;
+    font-weight: 800;
+    line-height: 1.25;
+    padding-bottom: 10px; }
+  #sponsors .btn {
+    margin-bottom: 15px; }
+
+#about {
+  background-color: #EEE; }
 
 /*# sourceMappingURL=application.css.map */

@@ -12,11 +12,11 @@
   <header>
     <nav class="navbar-fixed-top">
       <a class="nav-logo" href="/"><img src="assets/images/nav-logo.png" alt="Bsides Seattle Logo"></a>
-      <button class="nav-menu-btn" data-target="#nav-menu" data-toggle="collapse">
+      <button class="nav-menu-btn" data-id="nav-btn">
         <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true" data-target="#nav-menu" data-toggle="collapse"></span>
       </button>
       <div class="nav-menu collapse" id="nav-menu" data-id="navMenu">
-        <ul class="nav navbar-nav">
+        <ul>
           <li><a href="#program">PROGRAM</a></li>
           <li><a href="#schedule">SCHEDULE</a></li>
           <li><a href="#registration">REGISTRATION</a></li>
@@ -28,14 +28,69 @@
       </div>
     </nav>
     <div class="main-img">
+      <div class="event-info">
+        <h2 class="event-name">Bsides Seattle 2015</h2>
+        <h4 class="event-date-place">Sat, Feb 20, 2016 <span>&nbsp;•&nbsp;</span> Redmond</h4>
+      </div>
+      <button type="button" class="register-btn">
+        <a href="https://www.eventbrite.com/e/bsides-seattle-2015ish-tickets-19822367234" target="_blank">REGISTER NOW</a>
+      </button>
     </div>
   </header>
   <section>
-    <div id="program">
+    <div  id="program">
+      <h2>Program</h2>
+      <div class="information">
+        <i class="fa fa-clock-o fa-3x"></i>
+        <h4>TBA</h4>
+      </div>
+    </div>
+    <div id="schedule">
+      <h2>Schedule</h2>
+      <div class="information">
+        <i class="fa fa-clock-o fa-3x"></i>
+        <h4>TBA</h4>
+      </div>
+    </div>
+    <div id="registration">
+      <h2>Registration</h2>
+      <div class="information">
+        <h4></h4>
+        <button type="button" class="btn btn-default">
+          <a href="https://www.eventbrite.com/e/bsides-seattle-2015ish-tickets-19822367234" target="_blank">Register Now</a>
+        </button>
+      </div>
+    </div>
+    <div id="sponsors">
+      <h2>Sponsors</h2>
+      <div class="information">
+        <i class="fa fa-users fa-5x"></i>
+        <h3>Interested In Sponsoring Bsides Seattle 2015?</h3>
+        <button type="button" class="btn btn-default">
+          <a href="http://www.securitybsides.com/f/2015BSidesSeattleSponsorshipKit.pdf" target="_blank">Learn More</a>
+        </button>
+      </div>
+    </div>
+    <div id="volunteers">
+      <h2>Volunteers</h2>
+      <div class="information">
+        <i class="fa fa-clock-o fa-3x"></i>
+        <h4>Coming Soon</h4>
+      </div>
+    </div>
+    <div id="about">
+      <h2>About</h2>
+    </div>
+    <div id="contact">
+      <h2>Contact</h2>
+      <div class="information">
+        <h4><a href="mailto:bsidesseattle@gmail.com">Email</a></h4>
+      </div>
     </div>
   </section>
 </body>
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="assets/dest/scripts/ui.js"></script>
 <script src="assets/dest/scripts/application.js"></script>
 </html>
