@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAQ,2EAAmE",
+"sources": ["../../stylesheets/partials/_fonts.sass"],
 "names": [],
 "file": "application.css"
 }
