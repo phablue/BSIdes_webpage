@@ -19,9 +19,11 @@
 
     UI.prototype.navBarStyleConfig = function() {
       if ($(window).scrollTop() > 450) {
-        return this.navBarBtnStyleSet("#FFF", "#010E17");
+        this.navBarBtnStyleSet("#FFF", "#010E17");
+        return this.navBarBGStyleSet("#010E17");
       } else {
-        return this.navBarBtnStyleSet("transparent", "#FFF");
+        this.navBarBtnStyleSet("transparent", "#FFF");
+        return this.navBarBGStyleSet("rgba(1, 14, 23, 0.6)");
       }
     };
 
@@ -29,6 +31,12 @@
       return $("[data-id=nav-btn]").css({
         "background-color": "" + bgcolor,
         "color": "" + color
+      });
+    };
+
+    UI.prototype.navBarBGStyleSet = function(bgcolor) {
+      return $("[data-id=navbar]").css({
+        "background-color": "" + bgcolor
       });
     };
 

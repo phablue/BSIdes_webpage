@@ -8,15 +8,15 @@ a:hover {
   background-size: cover; }
 
 .main-img {
-  background-image: url("/BSIdes_webpage/assets/images/main-img-sm.png");
+  background-image: url("/Users/hyunahkelly/Documents/FrontEnd/bside/assets/images/main-img-sm.png");
   height: 500px; }
   @media only screen and (min-width: 768px) {
     .main-img {
-      background-image: url("/BSIdes_webpage/assets/images/main-img.png");
+      background-image: url("/Users/hyunahkelly/Documents/FrontEnd/bside/assets/images/main-img.png");
       height: 650px; } }
   @media only screen and (min-width: 1024px) {
     .main-img {
-      background-image: url("/BSIdes_webpage/assets/images/main-img-lg.png");
+      background-image: url("/Users/hyunahkelly/Documents/FrontEnd/bside/assets/images/main-img-lg.png");
       height: 800px; } }
 
 .event-info {
@@ -69,8 +69,22 @@ a:hover {
   .register-btn a {
     color: #FFF; }
 
+@media only screen and (min-width: 1024px) {
+  .navbar-fixed-top {
+    background-color: rgba(1, 14, 23, 0.6); } }
+
+@media only screen and (min-width: 1024px) {
+  .collapse.in {
+    display: inline-block; } }
+
 .nav-logo {
   display: none; }
+  @media only screen and (min-width: 1024px) {
+    .nav-logo {
+      display: inline-block;
+      float: left;
+      margin-left: 35px;
+      padding: 5px 0; } }
 .nav-menu-btn {
   background-color: transparent;
   border: 0px;
@@ -80,20 +94,37 @@ a:hover {
   padding: 10px 15px;
   text-align: left;
   width: 100%; }
+  @media only screen and (min-width: 1024px) {
+    .nav-menu-btn {
+      display: none; } }
   .nav-menu-btn:focus {
     outline: none; }
 .nav-menu {
   background-color: #EEE;
+  float: right;
   font-family: "Roboto", sans-serif; }
+  @media only screen and (min-width: 1024px) {
+    .nav-menu {
+      background-color: transparent;
+      display: inline-block;
+      padding: 15px 35px;
+      text-align: center; } }
   .nav-menu ul {
     list-style-type: none;
     padding: 15px 10px; }
+    @media only screen and (min-width: 1024px) {
+      .nav-menu ul li {
+        display: inline-block;
+        float: left; } }
     .nav-menu ul a {
       display: block;
       color: #010E17;
       font-size: 1.1em;
       font-weight: 700;
       padding: 7px 15px; }
+      @media only screen and (min-width: 1024px) {
+        .nav-menu ul a {
+          color: #FFF; } }
       .nav-menu ul a:hover {
         color: #6195BB; }
 
@@ -160,9 +191,9 @@ section {
     #about .team-member {
       padding: 10px 35px; } }
 #about .planner-img-one {
-  background-image: url("/BSIdes_webpage/assets/images/josh.jpg"); }
+  background-image: url("/Users/hyunahkelly/Documents/FrontEnd/bside/assets/images/josh.jpg"); }
 #about .planner-img-two {
-  background-image: url("/BSIdes_webpage/assets/images/magen.jpg"); }
+  background-image: url("/Users/hyunahkelly/Documents/FrontEnd/bside/assets/images/magen.jpg"); }
 
 #location {
   background-color: #EEE;
