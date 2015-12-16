@@ -6,8 +6,6 @@
   @media only screen and (min-width: 1024px)
     display: inline-block
 
-.hightlight
-
 .nav-
   &logo
     display: none
@@ -47,7 +45,18 @@
 
     ul
       list-style-type: none
-      padding: 15px 10px
+      padding: 0
+
+      .highlight
+        a
+          background-color: $highlight-bg-color
+
+          @media only screen and (min-width: 1024px)
+            background-color: transparent
+            border-bottom: 3px solid #FFF
+            font-weight: 800
+            letter-spacing: 1.5px
+            text-shadow: 2px 2px 5px #FFBF00
 
       li
         @media only screen and (min-width: 1024px)
@@ -59,7 +68,7 @@
         color: $nav-menu-font-color
         font-size: 1.1em
         font-weight: 700
-        padding: 7px 15px
+        padding: 10px 15px
 
         @media only screen and (min-width: 1024px)
           color: #FFF

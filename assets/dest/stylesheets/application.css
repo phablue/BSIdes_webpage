@@ -100,7 +100,7 @@ a:hover {
   .nav-menu-btn:focus {
     outline: none; }
 .nav-menu {
-  background-color: #EEE;
+  background-color: #EFEFEF;
   font-family: "Roboto", sans-serif; }
   @media only screen and (min-width: 1024px) {
     .nav-menu {
@@ -111,7 +111,16 @@ a:hover {
       text-align: center; } }
   .nav-menu ul {
     list-style-type: none;
-    padding: 15px 10px; }
+    padding: 0; }
+    .nav-menu ul .highlight a {
+      background-color: #DDD; }
+      @media only screen and (min-width: 1024px) {
+        .nav-menu ul .highlight a {
+          background-color: transparent;
+          border-bottom: 3px solid #FFF;
+          font-weight: 800;
+          letter-spacing: 1.5px;
+          text-shadow: 2px 2px 5px #FFBF00; } }
     @media only screen and (min-width: 1024px) {
       .nav-menu ul li {
         display: inline-block;
@@ -121,7 +130,7 @@ a:hover {
       color: #010E17;
       font-size: 1.1em;
       font-weight: 700;
-      padding: 7px 15px; }
+      padding: 10px 15px; }
       @media only screen and (min-width: 1024px) {
         .nav-menu ul a {
           color: #FFF; } }
@@ -154,8 +163,16 @@ section {
   .information-btn a, #cfp .btn a, #registration .btn a, #sponsors .btn a {
     color: #FFF; }
 
-#cfp .btn {
-  margin-top: 10px; }
+#cfp {
+  padding: 30px 0; }
+  #cfp h2 {
+    font-size: 3.5em;
+    font-weight: 900;
+    text-shadow: 2px 2px 5px #777; }
+  #cfp h3 {
+    font-size: 2.2em; }
+  #cfp .btn {
+    margin-top: 10px; }
 
 #registration {
   background-color: #EEE; }
@@ -194,7 +211,7 @@ section {
   max-height: 190px;
   max-width: 290px;
   padding: 10px; }
-  @media only screen and (min-width: 420px) {
+  @media only screen and (min-width: 481px) {
     .map {
       max-height: 350px;
       max-width: 500px; } }
