@@ -174,7 +174,7 @@ section {
 #volunteers {
   background-color: #EEE; }
 
-.planner-img, #about .planner-img-one, #about .planner-img-two {
+.planner-img {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -183,20 +183,7 @@ section {
   padding: 15px;
   width: 180px; }
 
-#about .team-member {
-  display: inline-block;
-  padding: 5px 20px;
-  margin-bottom: 30px; }
-  @media only screen and (min-width: 420px) {
-    #about .team-member {
-      padding: 10px 35px; } }
-#about .planner-img-one {
-  background-image: url("/BSIdes_webpage/assets/images/josh.jpg"); }
-#about .planner-img-two {
-  background-image: url("/BSIdes_webpage/assets/images/magen.jpg"); }
-
 #location {
-  background-color: #EEE;
   padding-bottom: 40px; }
   #location h4 {
     line-height: 1.3; }
