@@ -101,12 +101,12 @@ a:hover {
     outline: none; }
 .nav-menu {
   background-color: #EEE;
-  float: right;
   font-family: "Roboto", sans-serif; }
   @media only screen and (min-width: 1024px) {
     .nav-menu {
       background-color: transparent;
       display: inline-block;
+      float: right;
       padding: 15px 35px;
       text-align: center; } }
   .nav-menu ul {
