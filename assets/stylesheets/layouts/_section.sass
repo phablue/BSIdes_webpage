@@ -8,6 +8,7 @@ section
     h2
       color: $section-title-color
       font-weight: 700
+      margin-bottom: 30px
 
     h3
       color: $section-subtitle-color
@@ -40,6 +41,7 @@ section
     text-shadow: 2px 2px 5px #777
   h3
     font-size: 2.2em
+
   .btn
     @extend .information-btn
     margin-top: 10px
@@ -63,6 +65,28 @@ section
   .btn
     @extend .information-btn
     margin-bottom: 15px
+
+  .information
+    margin-top: 40px
+
+.sponsor
+  display: inline-block
+  margin: auto
+  width: 100%
+
+.sponsor-logo
+  background-position: center
+  background-repeat: no-repeat
+  background-size: contain
+  height: 70px
+
+  @media only screen and (min-width: 768px)
+    height: 100px
+    padding: 15px
+
+#fusionX
+  @extend .sponsor-logo
+  background-image: url("#{$image-path}/assets/images/FusionX_logo.png")
 
 #volunteers
   background-color: $section-divide-bg-color
