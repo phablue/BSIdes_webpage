@@ -10,26 +10,24 @@
 </head>
 <body>
   <header>
-    <nav class="navbar-fixed-top">
-      <a class="nav-logo" href="/"><img src="assets/images/nav-logo.png" alt="Bsides Seattle Logo"></a>
+    <nav class="navbar-fixed-top" data-id="navbar">
+      <a class="nav-logo" href="/"><img src="assets/images/logo.png" alt="Bsides Seattle Logo"></a>
       <button class="nav-menu-btn" data-id="nav-btn">
         <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true" data-target="#nav-menu" data-toggle="collapse"></span>
       </button>
       <div class="nav-menu collapse" id="nav-menu" data-id="navMenu">
         <ul>
-          <li><a href="#program">PROGRAM</a></li>
-          <li><a href="#schedule">SCHEDULE</a></li>
+          <li><span class="highlight"><a href="#cfp">CFP</a></span></li>
           <li><a href="#registration">REGISTRATION</a></li>
           <li><a href="#sponsors">SPONSORS</a></li>
           <li><a href="#volunteers">VOLUNTEERS</a></li>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="#location">LOCATION</a></li>
         </ul>
       </div>
     </nav>
     <div class="main-img">
       <div class="event-info">
-        <h2 class="event-name">Bsides Seattle 2015</h2>
+        <h1 class="event-name">Bsides Seattle 2015</h1>
         <h4 class="event-date-place">Sat, Feb 20, 2016 <span>&nbsp;•&nbsp;</span> Redmond</h4>
       </div>
       <button type="button" class="register-btn">
@@ -38,24 +36,23 @@
     </div>
   </header>
   <section>
-    <div  id="program">
-      <h2>Program</h2>
+    <div  id="cfp">
+      <h2>CFP</h2>
       <div class="information">
-        <i class="fa fa-clock-o fa-3x"></i>
-        <h4>TBA</h4>
-      </div>
-    </div>
-    <div id="schedule">
-      <h2>Schedule</h2>
-      <div class="information">
-        <i class="fa fa-clock-o fa-3x"></i>
-        <h4>TBA</h4>
+        <h3>Call for Presentations / Workshops</h3>
+        <h4>Dec 5th, 2015 ~ Jan 14th, 2016</h4>
+        <button type="button" class="btn btn-default">
+          <a href="https://docs.google.com/forms/d/1H5iXMzAFEOIqgniI19zmQXc31VPOEtxXOQzpL0cebqg/viewform?c=0&w=1" target="_blank">Submit Here</a>
+        </button>
       </div>
     </div>
     <div id="registration">
       <h2>Registration</h2>
+      <h4>
+        Saturday, February 20, 2016<br>
+        8:00 AM ~ 5:30 PM (PST)<br>
+        Redmond, WA<h4>
       <div class="information">
-        <h4></h4>
         <button type="button" class="btn btn-default">
           <a href="https://www.eventbrite.com/e/bsides-seattle-2015ish-tickets-19822367234" target="_blank">Register Now</a>
         </button>
@@ -63,8 +60,13 @@
     </div>
     <div id="sponsors">
       <h2>Sponsors</h2>
+      <div class="sponsor">
+        <a href="http://fusionx.com/" target="_blank">
+          <div id="fusionX"></div>
+        </a>
+      </div>
       <div class="information">
-        <i class="fa fa-users fa-5x"></i>
+        <i class="fa fa-users fa-4x"></i>
         <h3>Interested In Sponsoring Bsides Seattle 2015?</h3>
         <button type="button" class="btn btn-default">
           <a href="http://www.securitybsides.com/f/2015BSidesSeattleSponsorshipKit.pdf" target="_blank">Learn More</a>
@@ -78,16 +80,27 @@
         <h4>Coming Soon</h4>
       </div>
     </div>
-    <div id="about">
-      <h2>About</h2>
-    </div>
-    <div id="contact">
-      <h2>Contact</h2>
+    <div id="location">
+      <h2>Location</h2>
       <div class="information">
-        <h4><a href="mailto:bsidesseattle@gmail.com">Email</a></h4>
+        <iframe class="map" width="600" height="450" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=he%20Commons%20Mixer%20Building%20%2015255%20NE%2040th%20Street%20Redmond%2C%20WA%20%20%2098052.&key=AIzaSyDpS0bbFqvhksnq7W-n4E9S2aX_TqjSpqQ" allowfullscreen></iframe>
+        <h4>The Commons Mixer Building<br>15255 NE 40th ST<br>Redmond, WA 98052</h4>
       </div>
     </div>
   </section>
+  <footer>
+    <h4 class="contact">Questions?
+      <span>Contact Us</span>
+      <a href="mailto:bsidesseattle@gmail.com">
+        <i class="fa fa-envelope-o fa-lg"></i>
+      </a>
+    </h4>
+    <h4 class="follow">Follow Us
+      <a href="https://twitter.com/bsidesseattle">
+        <i class="fa fa-twitter fa-lg"></i>
+      </a>
+    </h4>
+  </footer>
 </body>
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>

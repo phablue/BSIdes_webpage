@@ -1,6 +1,20 @@
+.navbar-fixed-top
+  @media only screen and (min-width: 1024px)
+    background-color: $nav-bar-bg-color
+
+.collapse.in
+  @media only screen and (min-width: 1024px)
+    display: inline-block
+
 .nav-
   &logo
     display: none
+
+    @media only screen and (min-width: 1024px)
+      display: inline-block
+      float: left
+      margin-left: 35px
+      padding: 5px 0
 
   &menu-btn
     background-color: $nav-menu-btn-bg-color
@@ -12,6 +26,9 @@
     text-align: left
     width: 100%
 
+    @media only screen and (min-width: 1024px)
+      display: none
+
     &:focus
       outline: none
 
@@ -19,18 +36,42 @@
     background-color: $nav-menu-bg-color
     font-family: $nav-font
 
+    @media only screen and (min-width: 1024px)
+      background-color: transparent
+      display: inline-block
+      float: right
+      padding: 15px 35px
+      text-align: center
+
     ul
       list-style-type: none
-      padding: 15px 10px
+      padding: 0
+
+      .highlight
+        a
+          background-color: $highlight-bg-color
+
+          @media only screen and (min-width: 1024px)
+            background-color: transparent
+            border-bottom: 3px solid #FFF
+            font-weight: 800
+            letter-spacing: 1.5px
+            text-shadow: 2px 2px 5px #FFBF00
+
+      li
+        @media only screen and (min-width: 1024px)
+          display: inline-block
+          float: left
 
       a
         display: block
         color: $nav-menu-font-color
         font-size: 1.1em
         font-weight: 700
-        padding: 7px 15px
+        padding: 10px 15px
+
+        @media only screen and (min-width: 1024px)
+          color: #FFF
 
         &:hover
           color: $nav-menu-font-hover-color
-
-
